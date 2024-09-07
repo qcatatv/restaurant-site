@@ -1,0 +1,154 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*Restaurant desciption*/
+.container{
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0 15rem;
+  font-size: 40px;
+}
+
+.container img{
+  margin-top: -6rem;
+  height: 100%;
+  width: 30rem;
+  margin-left: 15rem;
+}
+
+.container .slogan h1{
+  font-family: 'Poppins';
+  font-weight: 400;
+  line-height: 4.5rem;
+  margin-top: 10rem;
+}
+
+.container h1 span{
+  font-style: bold;
+  color: #FABC3F;
+}
+
+/*Middle page information*/
+
+.middle .info h1{
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.food-order{
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.food-order .categori-img img{
+  flex: 0 auto;
+  height: 300px;
+  margin: 0;
+}
+
+.food-order .categori-img p{
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.food-order .categori-img .order-btn{
+  display: flex;
+  margin: 0 auto;
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.food-order .categori-img .order-btn::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+}
+
+.food-order .categori-img .order-btn:hover{
+  color: #e8e8e8;
+}
+
+.food-order .categori-img .order-btn:hover::before{
+  width: 100%;
+}
+
+.middle .regular-men{
+  margin-top: 3rem;
+  padding: 0 15rem;
+}
+
+.middle .regular-men a{
+  color: #e8e8e8;
+  text-decoration: none;
+}
+
+.middle .regular-men span{
+  color: #FABC3F;
+}
+
+.middle .regular-men h1{
+  font-family: 'Poppins';
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.middle .regular-men p{
+  margin-top: -25px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.middle .regular-men .seeall-btn{
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  margin-right: 13rem;
+  font-family: 'Poppins';
+  background-color: #E4003A;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.food-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust columns automatically */
+  grid-gap: 20px; /* Space between the grid items */
+  padding: 20px;
+}

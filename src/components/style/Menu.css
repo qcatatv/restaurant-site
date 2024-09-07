@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.menu-container {
+  font-family: 'Poppins';
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 200px;
+  height: auto;
+}
+
+.add-item-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.add-item-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-item-form button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-item-form button:hover {
+  background-color: #555;
+}
+
+/* Styling for Menu.js section */
+.menu-section {
+  margin-top: 50px;
+}
+
+.menu-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.menu-section .menu-item {
+  margin-bottom: 20px;
+}
+
+/* Menu.css */
+
+/* Container for the entire menu */
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins';
+}
+
+/* Header */
+.menu-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+/* Category buttons */
+.category-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-buttons button {
+  font-family: 'Poppins';
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.category-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Menu items container */
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual menu item */
+.menu-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-item h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.menu-item p {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #555;
+}
+
+.menu-item span {
+  display: block;
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+  font-weight: bold;
+}
