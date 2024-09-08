@@ -95,7 +95,7 @@
 
 .category-buttons button {
   font-family: 'Poppins';
-  background-color: #007bff;
+  background-color: #E4003A;
   color: white;
   border: none;
   border-radius: 5px;
@@ -107,7 +107,7 @@
 }
 
 .category-buttons button:hover {
-  background-color: #0056b3;
+  background-color: #bb002f;
 }
 
 /* Menu items container */

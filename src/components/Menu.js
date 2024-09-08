@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './style/Menu.css';
-import burgerImage from './../assets/burger.png';
-import pizzaImage from './../assets/pizza.png';
+import burgerImage from './../assets/food-menu/burger.png';
+import pizzaImage from './../assets/food-menu/pizza.png';
+import friedImage from './../assets/food-menu/cartofi.png';
+import burger2Image from './../assets/food-menu/burger2.png'
 
 const Menu = () => {
   // Initial menu data
@@ -17,7 +19,7 @@ const Menu = () => {
       name: "MENU OF THE DAY WITH SALAD",
       description: "Create your own menu - 500g",
       price: "30,00 LEI",
-      imageUrl: burgerImage,
+      imageUrl: friedImage,
       category: "with_salad",
     },
     {
@@ -38,7 +40,7 @@ const Menu = () => {
       name: "SHANGHAI CHICKEN MENU WITH FRIES AND COLLEGE SALAD",
       description: "Chicken Shanghai 300g with fries 150g and coleslaw 150g",
       price: "32,00 LEI",
-      imageUrl: burgerImage,
+      imageUrl: burger2Image,
       category: "shanghai_chicken",
     },
     {

@@ -1,24 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* About.css */
 .about {
     padding: 60px;
-    background-color: #ecf0f1;
+    width: 66rem;
+    font-family: 'Poppins';
+    align-items: center;
+    margin: 0 auto;
   }
+
+.about .about-hd{
+  font-family: 'Poppins';
+}
   
-  .about h2 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .about p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-top: 20px;
-  }
-  
-  .about img {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  
+.about .about-hd h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about .about-hd p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.about .about-hd img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.about-st h2{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-st p{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.about-meet h2{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-meet p{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-top: 20px;
+}
