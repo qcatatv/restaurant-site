@@ -3,14 +3,14 @@ import React from 'react';
 import './style/Home.css';
 import MenuItem from './MenuItem';
 import DiscountBanner from './DiscountBanner';
-import burger from './../assets/burger.png'
+import burger from './../assets/food-menu/burgerHD.png'
 import potato from './../assets/cartofiprajiti.png'
 import pizza from './../assets/pizza.png'
 import burgermd from './../assets/burder-middle.png'
 
 const menuItems = [
   { image: burger, name: 'Chicken Burger', price: 3.50, rating: 4.5 },
-  { image: pizza, name: 'Chicken Pizza', price: 4.20, rating: 4.2 },
+  { image: pizza, name: 'Chicken Pizza', price: 4.20, rating: 3 },
   { image: potato, name: 'French Fries', price: 2.50, rating: 4.3 },
   { image: burgermd, name: 'Grill Sandwich', price: 4.80, rating: 4.6 },
 ];

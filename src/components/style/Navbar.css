@@ -13,7 +13,7 @@
 .logo h1 {
   font-family: 'Serif', sans-serif;
   font-size: 24px;
-  color: #805d35;
+  color: #FABC3F;
   margin: 0;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .nav-links li {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .nav-links a {
@@ -72,7 +72,7 @@
 }
 
 .reservation-btn {
-  background-color: #f1a631;
+  background-color: #E4003A;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -81,5 +81,5 @@
 }
 
 .reservation-btn:hover {
-  background-color: #d48f29;
+  background-color: #bb002f;
 }
